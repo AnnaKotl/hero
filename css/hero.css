@@ -196,6 +196,12 @@ img {
     }
     .hero-btn-scroll-container {
         margin-left: 12px;
+        width: 28px;
+        height: 28px;
+    }
+    .hero-icon {
+        width: 28px;
+        height: 28px;
     }
 
 }
@@ -267,10 +273,8 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) and (max-width: 767px)
     }
     .hero-btn-scroll-container {
         margin-left: 14px;
-    }
-    .hero-btn-scroll-container {
-        width: 28px;
-        height: 28px;
+        width: 38px;
+        height: 38px;
     }
 }
 
