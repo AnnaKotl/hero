@@ -245,7 +245,7 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) and (max-width: 767px)
         padding: 0 40px;
     }
     .hero-subtitle {
-        min-width: 484px;
+        max-width: 484px;
         min-height: 102px;
         font-size: 28px;
         line-height: 1.21;
