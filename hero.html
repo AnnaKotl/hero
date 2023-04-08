@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./hero.css">
+    <link rel="stylesheet" href="./css/hero.css">
 </head>
 
 <body>
@@ -17,28 +16,27 @@
     </header>
     <main>
 
-        <!-- HERO------------------------- -->
-
         <section class="hero-section section">
-            <div class="hero-container container">
+            <div class="hero-container">
                 <h1 class="visually-hidden">hero</h1>
                 <h2 class="hero-subtitle">Treat yourself or a loved one to <br>our finest ingredients for a moment of pure delight!</h2>
                 <div class="hero-btn-container">
+                    <!-- !!! ===Add JS for modal "Buy now"=== !!! -->
                     <button type="button" class="hero-btn-modal">Buy now</button>
+                    <!-- !!! ===Add ID - section "How it's made"=== !!! -->
                     <button type="button" class="hero-btn">How it&#039;s made</button>
-                
+                    <!-- !!! ===Add ID for scroll to Footery=== !!! -->
                     <button type="button" class="hero-btn-scroll">scroll down
-                        <div class="hero-btn-scroll-container">
-                            <svg class="hero-icon" width="7" height="13">
-                                <use href="./sprite.svg#icon-hero-scroll"></use>
+                        <span class="hero-btn-scroll-container">
+                            <svg class="hero-icon" width="22" height="22">
+                                <use href="./images/icons.svg#icon-scroll-down"></use>
                             </svg>
-                        </div>
+                        </span>
                     </button>
                 </div>
             </div>
         </section>
 
-        <!-- /HERO------------------------- -->
     </main>
     <footer>
     </footer>
