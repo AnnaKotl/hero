@@ -169,8 +169,31 @@ img {
         display: none;
     }
     .hero-btn-container {
-        padding-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
     }
+    .hero-mob-btn-container {
+        display: flex;
+    }
+    .hero-btn-modal {
+        min-width: 120px;
+        max-height: 41px;
+        padding: 12px 28px;
+    }
+    .hero-btn {
+        min-width: 159px;
+        max-height: 41px;
+        padding: 12px 24px;
+    }
+    .hero-btn-scroll {
+        margin-top: 32px;
+        padding-bottom: 21px;
+    }
+    .hero-btn-scroll-container {
+        margin-left: 12px;
+    }
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -212,7 +235,7 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) and (max-width: 767px)
         padding: 0 40px;
     }
     .hero-subtitle {
-        width: 484px;
+        min-width: 484px;
         min-height: 102px;
         font-size: 28px;
         line-height: 1.21;
@@ -240,6 +263,10 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) and (max-width: 767px)
     }
     .hero-btn-scroll-container {
         margin-left: 14px;
+    }
+    .hero-btn-scroll-container {
+        width: 28px;
+        height: 28px;
     }
 }
 
